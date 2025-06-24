@@ -1,5 +1,9 @@
-from oop.university.entities import User, Tutor, Student
-from oop.university.interfaces import UserCreatorInterface, UserStorageAdapterInterface, UserInputAdapterInterface
+from python.oop.entities import User, Tutor, Student
+from python.oop.interfaces import (
+    UserCreatorInterface,
+    UserStorageAdapterInterface,
+    UserInputAdapterInterface,
+)
 
 
 class UserFactory:

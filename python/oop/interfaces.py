@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from oop.university.entities import User
+from python.oop.entities import User
 
 
 class UserCreatorInterface(ABC):

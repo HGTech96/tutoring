@@ -1,4 +1,4 @@
-from oop.university.interfaces import UserInputAdapterInterface
+from python.oop.interfaces import UserInputAdapterInterface
 
 
 class TerminalInputAdapter(UserInputAdapterInterface):

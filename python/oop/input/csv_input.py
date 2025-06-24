@@ -1,6 +1,6 @@
 import csv
 
-from oop.university.interfaces import UserInputAdapterInterface
+from python.oop.interfaces import UserInputAdapterInterface
 
 
 class CSVInputAdapter(UserInputAdapterInterface):

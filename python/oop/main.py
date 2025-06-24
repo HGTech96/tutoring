@@ -1,8 +1,8 @@
 # cli.py
-from oop.university.input.csv_input import CSVInputAdapter
-from oop.university.input.terminal_input import TerminalInputAdapter
-from oop.university.output.csv_storage import CSVStorageAdapter
-from oop.university.services import UserService
+from python.oop.input.csv_input import CSVInputAdapter
+from python.oop.input.terminal_input import TerminalInputAdapter
+from python.oop.output.csv_storage import CSVStorageAdapter
+from python.oop.services import UserService
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
         print("Invalid input method selected.")
         return
 
-    storage_adapter = CSVStorageAdapter('output_users.csv')
+    storage_adapter = CSVStorageAdapter('output')
     user_service = UserService(input_adapter, storage_adapter)
 
     if input_method == 'terminal':
